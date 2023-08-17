@@ -1,0 +1,81 @@
+:root{
+    --first-main-color-- :
+}
+
+body {
+    font-family: "Roboto";
+    font-size: 14px;
+    color: rgba(33, 33, 33, 1);
+}
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.hero-btn {
+    background: rgba(33, 150, 243, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+    
+}
+
+.features-list-title {
+    
+}
+
+.features-list-description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+
+.nav-list-link:hover{
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 150, 243, 1);
+}
+.contacts-list-link{
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.work-title {
+    font-size: 36px;
+}
+
+.team-list-title {
+}
+
+.adress {
+    
+}
+.header-logo{
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-align: left;
+
+}
+.contacts-list-link:hover{
+    color: rgba(33, 150, 243, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    
+}
