@@ -26,7 +26,10 @@ body {
 }
 
 .features-list-title {
-    
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
 }
 
 .features-list-description {
@@ -53,14 +56,21 @@ body {
 
 .work-title {
     font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
-.team-list-title {
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
 }
 
-.adress {
-    
-}
+
 .header-logo{
     font-family: raleway;
     font-size: 26px;
@@ -78,4 +88,13 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     
+}
+.team-list-img{
+    width: 270px;
+    height: 260px; 
+    
+}
+.work-list-img{
+    width: 370px;
+    height: 294px;
 }
