@@ -22,8 +22,6 @@ body {
     font-weight: 700;
     line-height: 1.9;
     letter-spacing: 0.06em;
-    text-align: center;
-    
 }
 
 .features-list-title {
@@ -31,6 +29,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-align: left;
+    width: 270px;
 }
 
 .features-list-description {
@@ -108,6 +107,9 @@ body {
 .hero{
     padding: 200px 0;
     background-color: 2F303A;
+    display: flex;
+    justify-content: center;
+    
 }
 .features{
     padding: 94px 0;
@@ -121,4 +123,61 @@ body {
 }
 .footer{
     background-color: 2F303A;
+}
+.hero-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.header-content-wrap{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-list{
+    display: flex;
+    gap: 94px;
+}
+.contacts-list{
+    display: flex;
+    gap: 50px;
+}
+.features-content-wrap{
+    display: flex;
+}
+.work-content-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.work-list{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+}
+.features-list{
+    display: flex;
+    gap: 30px;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+.footer-content-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: flex;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    
+}
+.address-list{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
