@@ -8,3 +8,137 @@ body{
     padding-right: 15px;
     margin: 0 auto;
 }
+.footer-content-wrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: flex;
+    justify-content: center;
+
+}
+.footer {
+    background-color: 2F303A;
+    height: 252px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(33, 150, 243, 1);
+    display: flex;
+}
+.footer-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+.address-list-link {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-list-link-address {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+}
+.header-content-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+}
+.contacts-list-link:hover {
+    color: rgba(33, 150, 243, 1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+}
+.header-logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1)
+}
+.nav-list-link:hover {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 150, 243, 1);
+}
+.nav-list-link {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(33, 33, 33, 1);
+}
+.contacts-list-link {
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(117, 117, 117, 1);
+}
+.contacts-list {
+    display: flex;
+    gap: 50px;
+}
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+.filters-list-btn{
+    width: 125px ;
+    height: 38px ;
+    border-radius: 4px;
+}
+.filters-list{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.filters{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.projects-list-item{
+    color:solid rgba(238, 238, 238, 1);
+}
+.projects{
+    padding-bottom: 94px;
+}
+.filters-list-btn:hover {
+    background-color: rgba(33, 150, 243, 1);
+    color: white;
+}
