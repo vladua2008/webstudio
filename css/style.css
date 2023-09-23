@@ -124,7 +124,7 @@ body {
     margin: 0 auto;   
 }
 .features{
-    padding: 94px 0;
+    margin: 94px 0;
 }
 .work{
     padding: 94px 0;
@@ -135,10 +135,7 @@ body {
 }
 .footer{
     background-color: 2F303A;
-    height: 252px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    padding: 60px 0;
 }
 .header-content-wrap{
     display: flex;
@@ -163,7 +160,7 @@ body {
 .work-list{
     display: flex;
     gap: 30px;
-    padding-top: 50px;
+    margin-top: 50px;
 }
 .features-list{
     display: flex;
