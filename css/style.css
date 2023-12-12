@@ -30,6 +30,7 @@ body {
     border-radius: 6px;
 }
 
+
 .features-list-title {
     font-weight: 700;
     line-height: 16px;
@@ -98,6 +99,13 @@ body {
     letter-spacing: 0.02em;
     text-align: left;
     color: rgba(117, 117, 117, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contacts-list-icon{
+    fill: currentColor;
 }
 
 .work-title {
@@ -115,8 +123,72 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
 }
+.social-list{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.social-list-link{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+.social-list-link:hover {
+    background-color: rgba(33, 150, 243, 1);
+    color: antiquewhite;
+}
+.social-list-icon {
+    fill: currentColor;
+}
+.project-list-desc-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.clients-list{
+    display: flex;
+    gap: 30px;
+}
+.clients-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    padding-bottom: 50px ;
+}
 
+.clients-list-link{
+    display: flex;
+    height: 92px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(175, 177, 184, 1);
+}
+.clients-list-icon{
+    fill: currentColor;
+}
+.clients-list-link:hover{
+    color: rgba(33, 150, 243, 1);
+    border: 1px solid rgba(33, 150, 243, 1);
+}
 
+.clients-list-item {
+    flex-basis: calc((100% - 150px) / 6);
+}
+.clients{
+    padding: 94px 0;
+}
 .header-logo{
     font-family: Raleway;
     font-size: 26px;
@@ -246,6 +318,9 @@ body {
     text-align: left;
     color: rgba(255, 255, 255, 1);
 }
+.media-list{
+    display: flex;
+}
 .team-item-wrap{
     background-color: white;
     text-align: center;
@@ -259,6 +334,7 @@ body {
     letter-spacing: 0.03em;
     text-align: center;
     color: rgba(117, 117, 117, 1);
+    padding-top: 10px;
 }
 .features-list-description{
     font-size: 14px;

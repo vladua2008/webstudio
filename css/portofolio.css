@@ -68,13 +68,8 @@ body{
 }
 .contacts-list-link:hover {
     color: rgba(33, 150, 243, 1);
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-align: left;
-
 }
+
 .header-logo {
     font-family: Raleway;
     font-size: 26px;
@@ -141,4 +136,7 @@ body{
 .filters-list-btn:hover {
     background-color: rgba(33, 150, 243, 1);
     color: white;
+}
+.clients{
+    padding: 94px 0;
 }
